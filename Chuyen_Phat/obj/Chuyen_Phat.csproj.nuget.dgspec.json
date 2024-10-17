@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Chuyen_Phat\\Chuyen_Phat\\Chuyen_Phat.csproj": {}
+    "C:\\Users\\TinhTam\\Chuyen_Phat\\Chuyen_Phat\\Chuyen_Phat.csproj": {}
   },
   "projects": {
-    "D:\\Chuyen_Phat\\Chuyen_Phat\\Chuyen_Phat.csproj": {
+    "C:\\Users\\TinhTam\\Chuyen_Phat\\Chuyen_Phat\\Chuyen_Phat.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Chuyen_Phat\\Chuyen_Phat\\Chuyen_Phat.csproj",
+        "projectUniqueName": "C:\\Users\\TinhTam\\Chuyen_Phat\\Chuyen_Phat\\Chuyen_Phat.csproj",
         "projectName": "Chuyen_Phat",
-        "projectPath": "D:\\Chuyen_Phat\\Chuyen_Phat\\Chuyen_Phat.csproj",
-        "packagesPath": "C:\\Users\\minht\\.nuget\\packages\\",
-        "outputPath": "D:\\Chuyen_Phat\\Chuyen_Phat\\obj\\",
+        "projectPath": "C:\\Users\\TinhTam\\Chuyen_Phat\\Chuyen_Phat\\Chuyen_Phat.csproj",
+        "packagesPath": "C:\\Users\\TinhTam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\TinhTam\\Chuyen_Phat\\Chuyen_Phat\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\minht\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\TinhTam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,8 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files\\dotnet\\library-packs": {}
         },
         "frameworks": {
           "net8.0-windows7.0": {
@@ -45,28 +48,6 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
-          "dependencies": {
-            "MongoDB.Analyzer": {
-              "target": "Package",
-              "version": "[1.5.0, )"
-            },
-            "MongoDB.BSon": {
-              "target": "Package",
-              "version": "[2.30.0, )"
-            },
-            "MongoDB.Driver": {
-              "target": "Package",
-              "version": "[2.30.0, )"
-            },
-            "MongoDB.Driver.Core": {
-              "target": "Package",
-              "version": "[2.30.0, )"
-            },
-            "MongoDB.Libmongocrypt": {
-              "target": "Package",
-              "version": "[1.12.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -86,7 +67,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
